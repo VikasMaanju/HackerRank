@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cstdio>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    
+    int i=0;long b=0;char x='a';float f=0;double d=0;
+    cin>>i>>b>>x>>f>>d;
+    
+     cout<<i<<endl;
+     cout<<b<<endl;
+     cout<<x<<endl;
+     cout<<fixed<<setprecision(3)<<f<<endl;  //setprecision for decimal point.
+     cout<<fixed<<setprecision(9)<<d<<endl;
+    return 0;
+}
